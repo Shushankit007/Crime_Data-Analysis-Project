@@ -23,7 +23,7 @@ The project consists of two main components: the backend logic and the graphical
 - GUI components : `OTPverify_GUI.py`
 
 ## Components and Its Functionality:
-* #### OTPverify_Backend.py : 
+* ### OTPverify_Backend.py : 
 * **OTPVerifyFeatureBackend Class**: This class contains the backend logic for OTP generation, email sending, and OTP verification. It includes methods for generating OTPs, validating email addresses, sending OTPs via email, prompting users for OTP input, and verifying entered OTPs.
 1. **generate_otp(self)**:
    - Generates a 6-digit OTP using random integers.
@@ -60,7 +60,7 @@ The project consists of two main components: the backend logic and the graphical
    - Calls the `verify_otp` method of the OTPVerifyFeatureBackend class to verify the entered OTP against the generated OTP.
    - Returns a boolean indicating whether the entered OTP matches the generated OTP.
 
-* #### OTPverify_GUI.py :
+* ### OTPverify_GUI.py :
 •	**OTPVerifyGUI Class :** This class implements the graphical user interface using PyQt5. It includes widgets for inputting email addresses and OTPs, buttons for sending and verifying OTPs, and labels for displaying status messages.
 1. **__init__(self)**:
    - Initializes the OTPVerifyGUI class, creating the graphical user interface (GUI) for OTP verification.
@@ -81,7 +81,7 @@ The project consists of two main components: the backend logic and the graphical
    - If a generated OTP exists and the entered OTP is not empty, calls the `verify_otp` method of the `OTPVerification` class to verify the OTP.
    - Updates the status label with either a success message for correct OTP or an error message for incorrect OTP.
    - If no OTP is generated, updates the status label with an error message prompting the user to send OTP first.
-#### Main Function (if __name__ == '__main__'):
+**Main Function (if __name__ == '__main__'):**
 - Initializes a PyQt5 application.
 - Creates an instance of the OTPVerifyGUI class, representing the OTP verification GUI window.
 - Shows the OTP verification GUI window.
