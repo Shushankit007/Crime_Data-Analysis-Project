@@ -42,8 +42,8 @@ class OTPVerifyFeatureBackend():
         try:
             otp = self.generate_otp()
             if otp:
-                sender_email = 'shushankit.automate@gmail.com'
-                sender_password = 'eeaw kxia wmrc vlbe'
+                sender_email = 'Enter your email address'  # enter your email address from where you have to send mail using smtp
+                sender_password = 'your password'     # enter your password or passcode or refer smtp library to know about how this smtp works
 
                 subject = 'OTP Verification'
                 body = f'Your OTP is: {otp}'
