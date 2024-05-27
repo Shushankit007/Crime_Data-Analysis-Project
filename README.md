@@ -5,10 +5,10 @@ The Coffee Quality Institute (CQI) is a non-profit organization that works to im
 
 CQI's mission is to promote coffee quality through a range of activities that include research, training, and certification programs. The organization works with coffee growers, processors, roasters, and other stakeholders to improve coffee quality standards, promote sustainability, and support the development of the specialty coffee industry.
 
-###Data:
+### Data:
 The data includes a range of information on coffee production, processing, and sensory evaluation. It also contains data on coffee genetics, soil types, and other factors that can affect coffee quality.
 
-###Sensory evaluations (coffee quality scores)
+### Sensory evaluations (coffee quality scores)
 - Aroma: Refers to the scent or fragrance of the coffee.
 - Flavor: The flavor of coffee is evaluated based on the taste, including any sweetness, bitterness, acidity, and other flavor notes.
 - Aftertaste: Refers to the lingering taste that remains in the mouth after swallowing the coffee.
@@ -20,12 +20,12 @@ The data includes a range of information on coffee production, processing, and s
 - Sweetness: It can be described as caramel-like, fruity, or floral, and is a desirable quality in coffee.
 PLEASE NOTE: 'Total Cup Points' is literally the total of 10 features given above. There were some notebooks trying to predict the total cup points given these features. We know the exact function underlying the total cup points.
 
-###Defects:
+### Defects:
 Defects are undesirable qualities that can occur in coffee beans during processing or storage. Defects can be categorized into two categories: Category One and Category Two defects.
 - Category One defects are primary defects that can be perceived through visual inspection of the coffee beans. These defects include Black beans, sour beans, insect-damaged beans, fungus-damaged beans, etc.
 - Category Two defects are secondary defects that are more subtle and can only be detected through tasting. These defects include Over-fermentation, staleness, rancidness, chemical taste, etc.
 
-###Objective: 
+### Objective: 
 The primary goal of this project is to leverage the rich dataset provided by CQI to understand the factors that contribute to coffee quality. Specifically, we aim to explore the following research questions:
 1.	What are the key determinants of coffee quality as evaluated through sensory attributes such as aroma, flavor, acidity, etc.?
 2.	Is there a correlation between processing methods, origin regions, and coffee quality scores?
